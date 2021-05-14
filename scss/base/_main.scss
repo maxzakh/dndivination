@@ -1,0 +1,40 @@
+// Default Layout
+* {
+    box-sizing: border-box;
+}
+
+main {
+    font-family: arial;
+    font-size: 1em;
+    @include center; 
+    width: 90%;
+    max-width: 900px;
+    text-align: center;   
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 0;
+}
+
+h2, h3 {
+    font-size: 1.2em;
+}
+
+p {
+    font-size: 1em;
+}
+
+header {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    background: url(../images/astrology.jpg) no-repeat center;
+    // background-overlay: 
+    background-size: cover;
+    color: rgb(44, 118, 255);
+    p {
+    font-size: 1.2em;
+    margin-top: 7px;
+    }
+}
